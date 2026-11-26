@@ -8,3 +8,8 @@
 - [x] Add Hindi throughout and retain the selected language between pages.
 - [x] Add clear Devanagari fonts and check all three options on phones.
 - [x] Test language state, verify pages and save changes.
+
+## Home-page additions
+- [x] Update the badge and add the introduction in all three languages.
+- [x] Add an illustrative before/after card without replacing the current photo or headline.
+- [x] Check layout and the Try Hunar Sakhi link, then save changes.

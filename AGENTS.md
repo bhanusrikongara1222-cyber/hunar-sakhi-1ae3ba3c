@@ -35,3 +35,4 @@ use the editor.
 - Keep this foundation presentation-only; introduce product-processing services only when the requested tool stage begins.
 
 - Require a complete LocalText record or all text() arguments for localized copy so missing language translations fail the type check.
+- Keep the illustrative product comparison in a separate presentation-only component so it cannot be mistaken for output from the future product-processing tool.
