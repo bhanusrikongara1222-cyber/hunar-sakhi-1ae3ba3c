@@ -30,6 +30,8 @@ use the editor.
 <!-- LOVABLE:END -->
 
 ## App structure
-- Keep shared navigation and the in-session language context in SiteShell around the root Outlet so language choice survives page navigation.
+- Keep shared navigation around the root Outlet and the typed language provider in RootShell so language choice survives page navigation and is available to error pages.
 - Give each named content page its own leaf route and metadata so navigation and social previews remain independently addressable.
 - Keep this foundation presentation-only; introduce product-processing services only when the requested tool stage begins.
+
+- Require a complete LocalText record or all text() arguments for localized copy so missing language translations fail the type check.
