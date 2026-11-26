@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## App structure
+- Keep shared navigation and the in-session language context in SiteShell around the root Outlet so language choice survives page navigation.
+- Give each named content page its own leaf route and metadata so navigation and social previews remain independently addressable.
+- Keep this foundation presentation-only; introduce product-processing services only when the requested tool stage begins.
